@@ -1,0 +1,37 @@
+.nav-bar{
+    display: flex;
+    background-color: gray;
+    flex-direction: row;
+    height: 100px;
+}
+.nav-bar ul{
+    display: flex;
+
+}
+.nav-bar ul li{
+    padding: 50px;
+    list-style: none;
+}
+.nav-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.nav-bar ul li a:hover{
+    color: rgb(230, 118, 28);
+}
+
+.bugatti {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+
+.image-container{
+    background-image: url('bugatti_pictures/img1.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
